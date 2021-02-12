@@ -1,0 +1,70 @@
+
+.wrapper{
+    margin: 1rem;
+    display:grid;
+   
+    grid-template-rows: 3rem 5rem 5rem;
+}
+.user{
+    display:grid;
+    grid-template-columns: 5rem 5rem ;
+}
+.avatar >img{
+    width: 5rem;
+    height: 5rem;
+}
+.back{
+    border-bottom: #e4e4e4 1px solid;
+    padding:0.5rem 0rem;
+}
+
+.back-btn {
+    padding: 1px 6px 1px 6px;
+    width : 5rem;
+    text-align: center;
+    border-color: #dcd7d3 !important;
+
+    
+  }
+  back-btn > * {
+  vertical-align: middle !important;
+  
+ 
+}
+span{
+    margin-right: 3%;
+}
+
+svg {
+    width:1rem;
+    height:1rem;
+    padding:1%;
+    fill:#6c757d
+}
+svg:hover {
+    fill: white;
+}
+.general-user-info{
+    color:#9a9c9c;
+    font-size:1.2rem;
+
+}
+
+.user-info{
+    font-size: 1.2rem;
+    
+}
+.user-email{
+    font-size: 1.1rem;
+    color:#e1e0e0;
+}
+.total-posts > .value{
+    color:#232f67;
+    font-size: 1.3rem;
+}
+.curr-page-posts-no>.value{
+    color:#a05530;
+    font-size: 1.3rem;
+}
+
+
